@@ -28,7 +28,7 @@ namespace BestEver
             Math.Round(tipAmt, 2);
             Math.Round(baseBillAmt, 2);
 
-            if (tipAmt > 0)
+            if (tipAmt >= 1)
             {
                 tipAmt = tipAmt / 100;
             }
