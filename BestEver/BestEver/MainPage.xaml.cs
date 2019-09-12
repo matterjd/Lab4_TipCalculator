@@ -34,8 +34,8 @@ namespace BestEver
             }
                        
             billAmt += (billAmt * tipAmt);
-            this.ouput.Text = "Bill Amount: " + "\t$" + billAmt.ToString();
-            this.ouput.Text += "\r\n" + "Tip Amount: " + "\t$" +  (baseBillAmt * tipAmt);
+            this.ouput.Text =  "Tip Amount: " + "\t$" + (baseBillAmt * tipAmt);
+            this.ouput.Text += "\r\n" + "Bill Amount: " + "\t$" + billAmt.ToString();
 
         }
 
